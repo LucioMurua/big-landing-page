@@ -331,3 +331,45 @@ body{
     padding-top: 1em;
 }
 
+
+/* ==========SECTION QUESTIONS========== */
+
+.questions{
+    color: #001a49;
+}
+
+.questions__text{
+    text-align: center;
+}
+
+.questions__title{
+    text-align: center;
+    font-size: 30px;
+    color: var(--color-title);
+    padding-bottom: 30px;
+}
+
+.questions__all{
+    border: 1px solid #001a49;
+    margin: 30px;
+    border-radius: 10px;
+    padding: 15px;
+    position: relative;
+    cursor: pointer;
+}
+
+.questions__arrowAll{
+    position: absolute;
+    right: 5px;
+    padding: 10px;
+}
+
+.questions__item{
+    padding: 10px;
+    transition: display .5s;
+}
+
+.questions__drop{
+    display: block;
+}
+
